@@ -772,20 +772,6 @@ nav {
 
 }
 
-@media (max-width: 600px) {
-    .tag-one {
-        left: 45%;
-    }
-
-    .tag-two {
-        position: relative;
-        left: 25%;
-    }
-
-    .tag-three {
-        left: 10%;
-    }
-}
 
 @media (max-width: 600px) {
     .anchor-icon {
@@ -817,9 +803,25 @@ nav {
         font-size: 12px;
         opacity: 25%;
     }
+
+    .tag-one {
+        left: 45%;
+    }
+
+    .tag-two {
+        position: relative;
+        left: 25%;
+    }
+
+    .tag-three {
+        left: 10%;
+    }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
+    .credibility-anchor {
+        gap: 5px;
+    }
 
     .btn-div {
         gap: 10px;
@@ -836,7 +838,25 @@ nav {
     .credibility-anchor {
         gap: 7px;
     }
+
+    .hero-text button {
+        padding: 14px 15px;
+    }
+
+    .tag-one {
+        left: 40%;
+    }
+
+    .tag-two {
+        position: relative;
+        left: 22%;
+    }
+
+    .tag-three {
+        left: 7%;
+    }
 }
+
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF HERO STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
