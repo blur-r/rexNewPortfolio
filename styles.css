@@ -1233,10 +1233,14 @@ nav {
     }
 
     .first-container {
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-bottom: 30px;
         padding: 25px 20px;
+    }
+
+    .resume {
+        padding: 40px 15px;
     }
 
 }
