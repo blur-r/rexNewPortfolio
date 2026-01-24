@@ -1060,3 +1060,185 @@ nav {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF ABOUT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF RESUME SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.resume {
+    background-color: #f2f2f2;
+    color: #1C2B4A;
+    padding: 40px 30px;
+}
+
+.resume hr {
+    width: 100px;
+    border: 2px solid #E7B727;
+    margin: 5px auto 30px auto;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-container {
+    width: 30%;
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.avi-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #E7B727;
+}
+
+.avi-image img {
+    width: 100%;
+}
+
+.personal-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.personal-info-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.personal-info-header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resume-skills {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.resume-skills-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.resume-skills-header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.second-container {
+    width: 55%;
+    background-color: white;
+}
+
+.resume-skill {
+    margin-bottom: 14px;
+}
+
+.resume-skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.resume-skill-info p {
+    font-size: 14px;
+}
+
+.bar {
+    background: #eee;
+    border-radius: 20px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #E7B727;
+    border-radius: 20px;
+    animation: load 1.2s ease-in-out forwards;
+
+}
+
+@keyframes load {
+    from {
+        width: 0;
+    }
+}
+
+
+.button17 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 5px auto;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.5),
+        10px 10px 23px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    background: linear-gradient(0deg, #0c0c0c 0%, rgb(34, 34, 34) 100%);
+}
+
+.button17:before {
+    height: 0%;
+    width: 2px;
+}
+
+.button17:hover {
+    box-shadow: 5px 5px 7px 0 rgba(255, 255, 255, 0.5),
+        -5px -5px 7px 0 rgba(116, 125, 136, 0.5),
+        inset -5px -5px 7px 0 rgba(255, 255, 255, 0.2),
+        inset 5px 5px 7px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF RESUME MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .first-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 25px 20px;
+    }
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF RESUME SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
