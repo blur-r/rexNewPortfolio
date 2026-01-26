@@ -1192,7 +1192,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin: 5px auto;
+    margin: 15px auto;
     height: 60px;
     color: #fff;
     cursor: pointer;
@@ -1220,6 +1220,48 @@ nav {
         -5px -5px 7px 0 rgba(116, 125, 136, 0.5),
         inset -5px -5px 7px 0 rgba(255, 255, 255, 0.2),
         inset 5px 5px 7px 0 rgba(0, 0, 0, 0.4);
+}
+
+.work-history {
+    padding: 30px;
+}
+
+.work-history p {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.work-history i {
+    color: #E7B727;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.work-history-details {
+    padding-left: 40px;
+    border-left: 2px solid #000;
+    margin-top: 30px;
+}
+
+.work-history-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.work-history-detail h3 {
+    font-size: 22px;
+}
+
+.work-history-detail p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.work-history-detail ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 
