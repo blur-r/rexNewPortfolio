@@ -1071,6 +1071,7 @@ nav {
     background-color: #f2f2f2;
     color: #1C2B4A;
     padding: 40px 30px;
+    padding-bottom: 50px;
 }
 
 .resume hr {
@@ -1315,3 +1316,132 @@ nav {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF RESUME SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.project {
+    background-color: #f2f2f2;
+    color: #1C2B4A;
+    padding: 40px 30px;
+    padding-bottom: 50px;
+}
+
+.project hr {
+    width: 100px;
+    border: 2px solid #E7B727;
+    margin: 5px auto 30px auto;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.contact {
+    background-color: #f2f2f2;
+    color: #1C2B4A;
+    padding: 40px 30px;
+    padding-bottom: 50px;
+}
+
+.contact hr {
+    width: 100px;
+    border: 2px solid #E7B727;
+    margin: 5px auto 30px auto;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 55%;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+    padding: 30px 45px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-field label {
+    font-size: 18px;
+}
+
+.form-field input,
+.form-field textarea {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background-color: #FEFCFC;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-field input {
+    height: 60px;
+}
+
+textarea {
+    font-family: inherit;
+    height: 150px;
+}
+
+
+textarea::placeholder {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    height: 60px;
+    background-color: #E7B727;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.social-info {
+    width: 30%;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
