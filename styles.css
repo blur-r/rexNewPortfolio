@@ -1438,9 +1438,75 @@ form button {
 
 .social-info {
     width: 30%;
+}
+
+.email-me {
+    display: flex;
     box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
     background-color: white;
+    width: 100%;
+    border-radius: 7px;
+    gap: 20px;
+    padding: 25px 15px;
+
 }
+
+.email-icon {
+    background-color: #E7B727;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1C2B4A;
+}
+
+.email-icon i {
+    font-size: 27px;
+}
+
+.email-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.email-text p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-text p:nth-child(2) {
+    font-size: 14px;
+    color: #555555;
+}
+
+.email-text p:last-child {
+    color: #E7B727;
+    padding-top: 7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.email-text i {
+    margin-left: 10px;
+}
+
+.social-media-contact {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
