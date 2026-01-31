@@ -1706,6 +1706,7 @@ footer hr {
 
 .footer-text p:last-child {
     font-size: 18px;
+    font-style: italic;
 }
 
 .footer-links {
@@ -1774,6 +1775,10 @@ footer hr {
     font-size: 18px;
     font-weight: bold;
     border: none;
+}
+
+.copyright {
+    font-style: italic;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF FOOTER SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -1867,6 +1872,7 @@ footer hr {
 
     .footer-contact {
         flex-wrap: wrap;
+        gap: 5px;
     }
 
     .footer-links {
@@ -1896,6 +1902,8 @@ footer hr {
     .footer-contact button {
         padding: 7px;
         font-size: 15px;
+        width: 90%;
+        margin-top: 10px;
     }
 
     .copyright {
