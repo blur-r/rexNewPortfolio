@@ -1334,11 +1334,13 @@ nav {
     margin: 5px auto 30px auto;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF CONTACT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 .contact {
@@ -1522,7 +1524,7 @@ form button {
     text-decoration: none;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF CONTACT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 @media (max-width: 960px) {
     .email-me {
@@ -1665,4 +1667,239 @@ form button {
 
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF CONTACT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF FOOTER SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+footer hr {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-text {
+    width: 500px;
+}
+
+.footer-text p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.footer-text p:last-child {
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-contact p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.footer-contact p:nth-child(2) {
+    font-size: 18px;
+}
+
+.footer-contact p:nth-child(2) i {
+    font-size: 20px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-socials a i {
+    font-size: 24px;
+}
+
+.footer-contact button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF FOOTER SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media (max-width: 1054px) {
+    footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 906px) {
+    .footer-text {
+        width: 400px;
+    }
+}
+
+@media (max-width: 807px) {
+    .footer-contact button {
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+    }
+
+    .footer-text {
+        width: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer-links ul {
+        display: flex;
+        gap: 10px;
+        padding-top: 6px;
+    }
+
+    .footer-contact {
+        width: 100%;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer-contact p:first-child {
+        padding-bottom: 0;
+    }
+
+}
+
+@media (max-width: 667px) {
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+
+    .footer-text p:first-child {
+        font-size: 18px;
+    }
+
+    .footer-text p:last-child {
+        font-size: 16px;
+    }
+
+    .footer-container {
+        gap: 10px;
+    }
+
+    .footer-contact {
+        flex-wrap: wrap;
+    }
+
+    .footer-links {
+        gap: 7px;
+    }
+
+    .footer-links p {
+        font-size: 16px;
+    }
+
+    .footer-links ul a {
+        font-size: 14px;
+    }
+
+    .footer-contact p:first-child {
+        font-size: 16px;
+    }
+
+    .footer-contact p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .footer-contact p:nth-child(2) i {
+        font-size: 14px;
+    }
+
+    .footer-contact button {
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF FOOTER SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
