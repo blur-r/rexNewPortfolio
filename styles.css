@@ -1717,6 +1717,7 @@ footer hr {
 .footer-links p {
     font-weight: bold;
     font-size: 18px;
+    color: #E7B727;
 }
 
 .footer-links ul {
@@ -1742,6 +1743,7 @@ footer hr {
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 6px;
+    color: #E7B727;
 }
 
 .footer-contact p:nth-child(2) {
