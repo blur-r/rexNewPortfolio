@@ -37,16 +37,17 @@ header {
     top: 0;
     z-index: 100;
     width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 40px 30px;
-    /* padding: 20px 30px; */
+    padding: 20px 30px;
     align-items: center;
-    /* position: sticky;
-    top: 0; */
     z-index: 100;
 }
 
@@ -205,8 +206,11 @@ nav {
 
     nav {
         background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(7px);
+        backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px);
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
         position: sticky;
     }
@@ -320,7 +324,6 @@ nav {
 .credibility-anchor {
     display: flex;
     gap: 30px;
-    /* margin-top: 50px; */
 }
 
 .anchor {
@@ -842,12 +845,12 @@ nav {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     .hero-content {
         flex-direction: column;
         padding-top: 100px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
 
 
