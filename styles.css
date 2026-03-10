@@ -834,7 +834,7 @@ nav {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .hero-content {
         padding-top: 95px;
