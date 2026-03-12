@@ -10,7 +10,8 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #1C2B4A;
+    /* background-color: #1C2B4A; */
+    background-color: rgba(40, 54, 82);
     color: white;
 }
 
@@ -1149,8 +1150,12 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* position: sticky;
-    top: 20px; */
+    position: sticky;
+    top: 100px;
+}
+
+.first-container-name {
+    font-size: 28px;
 }
 
 .avi {
@@ -1305,7 +1310,7 @@ nav {
 
 .work-history-details {
     padding-left: 40px;
-    border-left: 2px solid #000;
+    border-left: 2px solid rgba(40, 54, 82, 0.5);
     margin-top: 30px;
 }
 
@@ -1329,6 +1334,7 @@ nav {
 .work-history-detail ul {
     margin-left: 20px;
     margin-bottom: 15px;
+    list-style-type: square;
 }
 
 
@@ -1346,6 +1352,8 @@ nav {
         margin: auto;
         margin-bottom: 30px;
         padding: 25px 30px;
+        position: relative;
+        top: 0;
     }
 
     .second-container {
@@ -1359,7 +1367,24 @@ nav {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .first-container {
+        padding: 25px 10px;
+    }
+
+    .personal-info-email {
+        font-size: 14px;
+    }
+
+    .first-container-name {
+        font-size: 23px;
+    }
+
+    .resume {
+        padding: 40px 10px;
+        padding-bottom: 50px;
+    }
+
     .work-history {
         padding-left: 20px;
         padding-right: 20px;
