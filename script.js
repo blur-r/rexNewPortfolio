@@ -19,7 +19,6 @@ navItems.forEach(item => {
 });
 
 
-
 const header = document.querySelector("header");
 const hero = document.querySelector("#hero");
 
@@ -37,14 +36,6 @@ window.addEventListener("scroll", () => {
     // header.style.background = `rgba(255,255,255,${opacity})`;\
     header.style.background = `rgba(40,54,82,${opacity})`
 });
-
-// const steps = document.querySelectorAll(".step");
-
-// steps.forEach((step, i) => {
-//     setTimeout(() => {
-//         step.classList.add("active");
-//     }, i * 200);
-// });
 
 const sr = ScrollReveal({
     distance: '50px',
