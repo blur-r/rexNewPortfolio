@@ -1516,16 +1516,19 @@ nav {
 .projects-container {
     display: grid;
     width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     padding-top: 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto; */
     gap: 20px;
-    place-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
 }
 
 .project-container {
     width: 300px;
+    margin: 0 auto 0 auto;
 }
 
 .project-image {
@@ -1575,10 +1578,10 @@ nav {
         padding: 0;
     }
 
-    .projects-container {
+    /* .projects-container {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 0 30px;
-    }
+    } */
 
 }
 
@@ -1588,22 +1591,22 @@ nav {
         padding: 20px 20px;
     }
 
-    .projects-container {
+    /* .projects-container {
         grid-template-columns: 1fr 1fr;
         padding: 10px 30px;
-    }
+    } */
 
 }
 
 @media (max-width: 675px) {
     .projects-container {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         margin-top: 50px;
-        padding: 10px 20px;
+        /* padding: 10px 20px; */
     }
 
     .project-container {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -1613,7 +1616,8 @@ nav {
     }
 
     .projects-container {
-        padding: 10px 15px;
+        /* padding: 10px 15px; */
+        gap: 8px;
     }
 }
 
@@ -1621,7 +1625,7 @@ nav {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!END OF PROJECT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF CONTACT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF CONTACT SECTION STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 .contact {
