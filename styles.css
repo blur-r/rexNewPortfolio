@@ -1569,6 +1569,12 @@ nav {
     height: 45px;
     font-size: 18px;
     color: white;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 0 59px;
 }
 
 
