@@ -1577,6 +1577,68 @@ nav {
     padding: 0 59px;
 }
 
+.custom-carousel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.carousel-content {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    max-width: 700px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+}
+
+.carousel-inner img.active {
+    display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    cursor: pointer;
+    color: red;
+    z-index: 2;
+}
+
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!START OF PROJECT SECTION MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media (max-width: 1200px) {
@@ -1622,8 +1684,18 @@ nav {
     }
 
     .projects-container {
-        /* padding: 10px 15px; */
-        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-buttons button {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .carousel-content {
+        width: 90%;
     }
 }
 
