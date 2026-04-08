@@ -412,7 +412,6 @@ nav {
 .anchor-text {
     display: flex;
     flex-direction: column;
-    gap: 3px;
 }
 
 .anchor-text p:first-child {
@@ -968,7 +967,12 @@ nav {
         padding-bottom: 35px;
     }
 
+}
 
+@media (max-width: 471px) {
+    .anchor-text p:nth-child(2) {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 426px) {
@@ -979,7 +983,8 @@ nav {
 
 
     .credibility-anchor {
-        gap: 5px;
+        gap: 0;
+        padding: 0;
     }
 
     .btn-div {
@@ -992,11 +997,9 @@ nav {
 
     .anchor-text p:nth-child(2) {
         font-size: 10px;
+        font-weight: 600;
     }
 
-    .credibility-anchor {
-        gap: 7px;
-    }
 
     .hero-text button {
         padding: 14px 15px;
