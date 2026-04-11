@@ -82,6 +82,7 @@ const closeBtn = document.querySelector('.close-btn');
 let currentIndex = 0;
 
 const imageSets = [
+    ["projectALG.JPG", "projectALG2.JPG", "projectALG3.JPG", "projectALG4.JPG", "projectALG5.JPG", "projectALG6.JPG", "projectALG7.JPG", "projectALG8.JPG", "projectALG9.JPG", "projectALG10.JPG", "projectALG12.JPG", "projectALG13.JPG", "projectALG14.JPG",],
     ["terrace 1.jpg", "terrace 2.jpg", "terrace 3.jpg"],
     ["bedroom 1.jpg", "bedroom 2.jpg", "bedroom 3.jpg"],
     ["toilet 1.jpg", "toilet 2.jpg"],
